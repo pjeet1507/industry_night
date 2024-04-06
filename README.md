@@ -25,9 +25,9 @@ The website will also feature information about the Interactive Media Design pro
 The project spans various MMED courses, each with specific objectives. In MMED-3038 (Web Development), the goal is to design an interactive promotional website for the Interactive Media Design program, featuring student work and detailed case studies. Motion Graphics (MMED-1058) focuses on crafting a captivating 10-15-second introduction for a promotional reel, using animations and typography to tell a compelling story about the program. MMED-3040 (Web Development) emphasizes creating a responsive, mobile-first website with the CSS Grid Library, ensuring effective scalability and employing responsive image strategies. MMED-3039 (Web Development) involves building a responsive site using data objects, including a student portfolio list and testimonials, along with a mobile-specific menu. Additionally, it requires maintaining a GitHub repository with a detailed Readme file and continuous integration.
 
 # version / history
-1.0 - layout with grid system and on-go images
-2.0 - fixed issues, implemented functionalities and media along with information
-3.0 - responsive for mobile, tablet and desktop
+1.0 - layout with grid system and on-go images <br>
+2.0 - fixed issues, implemented functionalities and media along with information <br>
+3.0 - responsive for mobile, tablet and desktop <br>
 
 # how to use
 1. Clone the repo / Download the files
