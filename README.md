@@ -39,7 +39,7 @@ The project spans various MMED courses, each with specific objectives. In MMED-3
 MIT
 
 # Credits
-Aiden Wotton, 
-Dev Pandya,
-Jeet Patel,
-Sahilkumar Gosaliya
+[Sahilkumar Gosaliya](https://github.com/Sahil11gosaliya), <br>
+[Jeet Patel](https://github.com/pjeet1507), <br>
+[Aiden Wotton](https://github.com/a-wotton), <br>
+[Dev Pandya](https://github.com/Devveking08)
