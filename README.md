@@ -1,6 +1,6 @@
 ![BOOT CAMP](images/Thumbnail_for_video.png)
 
-# team_knight_boot_camp_project
+# Team_Knight_Boot_Camp_Project
  
 An Industry Night Event 
  
