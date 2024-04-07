@@ -1,0 +1,52 @@
+.winner img {
+    display: block;
+    width: 100%;
+    mix-blend-mode: overlay;
+}
+
+footer {
+    background: url("../images/background2.png") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.fan-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 80px;
+    }
+}
+
+.social {
+    width: 80px;
+    height: auto;
+    mix-blend-mode: overlay;
+    color: white;
+    padding: 3px;
+}
+
+#footer {
+    background-size: cover;
+    text-align: center;
+    /* padding: 40px 0; */
+    background-color: rgb(110, 103, 103);
+}
+
+#footer h3 {
+    color: whitesmoke;
+}
+
+.accordion-content .description {
+    display: none;
+}
+
+.accordion-content .description.show {
+    display: block;
+}
+
+#testimonials {
+    background-color: whitesmoke;
+}

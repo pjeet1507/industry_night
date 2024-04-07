@@ -10,10 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <!--Open Sans Reguler and Montserrat-->
+    <!--Open Sans Regular and Montserrat-->
     <link href="css/grid.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet" />
     <script type="module" src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
   </head>
 
   <body>
@@ -22,7 +25,7 @@
       <div id="banner" class="full-width-grid-con"></div>
       <nav class="grid-con nav">
         <h1
-          class="col-start-1 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4"
+          class="leftin col-start-1 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4"
         >
           INDUSTRY NIGHT
         </h1>
@@ -54,29 +57,35 @@
       </nav>
 
       <!-- Header Section -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+      </div>
       <header id="about" class="grid-con">
         <div
           class="container hero grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12"
         >
           <!-- <video src="video/Promotional_Video.mp4" controls="controls"></video> -->
 
-          <h2>WELCOME TO INDUSTRY NIGHT</h2>
-          <h2>School of Digtial and Performing Arts</h2>
-          <h3>Explore the world of interactive media design.</h3>
+          <h2 class="bottomin">WELCOME TO INDUSTRY NIGHT</h2>
+          <h2 class="bottomin">School of Digital and Performing Arts</h2>
+          <h3 class="bottomin">
+            Explore the world of interactive media design.
+          </h3>
         </div>
       </header>
 
       <!-- Program Section -->
       <!-- Industry Night Event Section -->
+
       <section id="event" class="grid-con">
         <div
-          class="grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
+          class="grid-itemcol-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
         >
           <h2>EVENT DETAILS</h2>
         </div>
 
         <div
-          class="card container grid-item col-span-4 m-col-start-2 m-col-end-7 box"
+          class="card container leftin grid-item col-span-4 m-col-start-2 m-col-end-7 box"
         >
           <h3>Event Activities</h3>
           <p>The SDPA Industry Night for 2023 will showcase student projects</p>
@@ -101,7 +110,7 @@
           </p>
         </div>
         <div
-          class="card container grid-item col-span-4 m-col-start-7 m-col-end-12 box"
+          class="card rightin container grid-item col-span-4 m-col-start-7 m-col-end-12 box"
         >
           <h3>Event Schedule</h3>
           <ul>
@@ -124,8 +133,8 @@
               Labs)
             </li>
             <li>
-              <strong>7:00-8:00</strong> - Food & Drinks/Mingle & Networking
-              (The Chef's Table)
+              <strong>7:00-8:00</strong> - Food &amp; Drinks/Mingle &amp;
+              Networking (The Chef's Table)
             </li>
           </ul>
         </div>
@@ -133,7 +142,7 @@
 
       <section id="program" class="grid-con info">
         <div
-          class="container grid-item col-span-4 m-col-start-2 m-col-end-10 l-col-start-2 l-col-end-10"
+          class="container bottomin grid-item col-span-4 m-col-start-2 m-col-end-10 l-col-start-2 l-col-end-10"
         >
           <h2>INTERACTIVE MEDIA DESIGN</h2>
           <br />
@@ -160,7 +169,7 @@
             <div class="accordion">
               <a href="" class="toggle-description">Read More</a>
 
-              <div class="description">
+              <div class="description bottomin">
                 <br />
                 <p>"Here's why our program stands out:</p>
                 <p>
@@ -218,12 +227,12 @@
 
       <section id="projects" class="grid-con info">
         <div
-          class="grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
+          class="bottomin grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
         >
           <h2>CLIENT PROJECT WITH LEVEL 4 STUDENTS</h2>
         </div>
         <div
-          class="grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box winner-div"
+          class="bottomin grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box winner-div"
         >
           <p>
             Working in small groups and functioning as a mini-studio, level 4
@@ -239,12 +248,12 @@
           </p>
         </div>
         <div
-          class="grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
+          class="bottomin grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
         >
           <h2>LEVEL 4 PROJECTS</h2>
         </div>
         <div
-          class="winner grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
+          class="bottomin winner grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
         >
           <img src="../images/xd1.jpg" alt="xd" />
         </div>
@@ -252,7 +261,9 @@
 
       <!-- Testimonials Section -->
       <section id="testimonials" class="grid-con">
-        <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
+        <div
+          class="bottomin col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
+        >
           <h2>TESTIMONIALS</h2>
         </div>
 
@@ -274,7 +285,7 @@
           <img src="images/line_h.png" alt="line" />
         </div> -->
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 xl-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
           <h3>Marco De Luca</h3>
           <p>
             "If you are a business owner, and you don't have industry nights in
@@ -282,7 +293,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 xl-col-span-4 box">
+        <div class="col-span-4 m-col-span-4 l-col-span-4 bottomin box">
           <h3>Robert Haaf</h3>
           <p>
             "I love industry nights! This is an amazing service and it has saved
@@ -291,14 +302,14 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 xl-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
           <h3>John Bennett</h3>
           <p>
             "I have tried a few software of this kind and industry nights is the
             best by far!"
           </p>
         </div>
-        <div class="col-span-4 m-col-span-3 l-col-span-4 xl-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
           <h3>Justin Brunner</h3>
           <p>
             "If you are a business owner, and you don't have industry nights in
@@ -306,7 +317,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 xl-col-span-4 box">
+        <div class="col-span-4 m-col-span-4 l-col-span-4 bottomin box">
           <h3>Joe Kormendi</h3>
           <p>
             "I love industry nights! This is an amazing service and it has saved
@@ -315,7 +326,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 xl-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
           <h3>Jarrod Osterback</h3>
           <p>
             "I have tried a few software of this kind and industry nights is the
@@ -448,7 +459,7 @@
         </div>
 
         <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
           <img src="images/aidan.jpg" alt="Portfolio 1" />
           <h3>Aidan Wotton</h3>
@@ -457,7 +468,7 @@
           </p>
         </div>
         <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
           <img src="images/dev.jpg" alt="Portfolio 2" />
           <h3>Dev Pandya</h3>
@@ -466,7 +477,7 @@
           </p>
         </div>
         <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
           <img src="images/jeet.jpg" alt="Portfolio 3" />
           <h3>Jeet Patel</h3>
@@ -475,7 +486,7 @@
           </p>
         </div>
         <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
           <img src="images/sahil.jpg" alt="Portfolio 4" />
           <h3>Sahilkumar Gosaliya</h3>

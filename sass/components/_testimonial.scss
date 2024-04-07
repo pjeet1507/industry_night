@@ -1,0 +1,11 @@
+.test_text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 2s;
+    padding-bottom: 50px;
+}
+
+.test_text.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
