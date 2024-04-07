@@ -137,9 +137,8 @@ export function portfolios() {
       "portfolio-item",
       "col-span-2",
       "m-col-span-3",
-      "l-col-span-3",
-      "xl-col-span-3",
-      "box"
+      "box",
+      "bottomin"
     );
     portfolioDiv.innerHTML = `<h3>${portfolio.name}</h3> <a href="${
       portfolio.portfolioLink

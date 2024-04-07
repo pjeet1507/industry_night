@@ -1,0 +1,25 @@
+.portfolio-item {
+    // opacity: 0;
+    transform: translateY(20px);
+    // transition: opacity 1s, transform 2s;
+    padding-bottom: 50px;
+}
+
+// .portfolio-item.visible {
+//     opacity: 1;
+//     transform: translateY(0);
+// }
+
+.portfolio-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.portfolio-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
