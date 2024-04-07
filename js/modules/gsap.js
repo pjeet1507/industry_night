@@ -14,6 +14,7 @@ export function leftandright() {
         end: "bottom center",
         scrub: true,
       },
+      clearProps: "scale,left,opacity,transform",
     });
   }
 
@@ -30,6 +31,7 @@ export function leftandright() {
         end: "bottom center",
         scrub: true,
       },
+      clearProps: "scale,left,opacity,transform",
     });
   }
 
@@ -46,6 +48,7 @@ export function leftandright() {
         end: "bottom center",
         scrub: true,
       },
+      clearProps: "scale,left,opacity,transform",
     });
   }
 
