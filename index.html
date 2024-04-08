@@ -14,24 +14,16 @@
     <link href="css/grid.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/reset.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script type="module" src="js/main.js"></script>
   </head>
 
   <body>
     <main>
-      <!--    
-      <div id="particles-js"></div>
-
-      <div class="count-particles">
-        <span class="js-count-particles">--</span> particles
-      </div>
-
-      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-      <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
       <!-- Navigation Bar -->
       <div id="banner" class="full-width-grid-con"></div>
       <nav class="grid-con nav">
@@ -58,23 +50,23 @@
           <li><a href="#students">Portfolios</a></li>
         </ul>
       </nav>
-
+      <div id="particles-js"></div>
       <!-- Header Section -->
       <div id="progress-container">
         <div id="progress-bar"></div>
       </div>
+
       <header id="about" class="grid-con">
-        <div class="container hero grid-item col-span-4 m-col-span-12">
-          <h2 class="bottomin">Welcome to</h2>
-          <h1 class="bottomin">INDUSTRY NIGHT</h1>
-          <h3 class="bottomin">
-            From the School of Digital and Performing Arts
-          </h3>
-        </div>
-        <div class="container bottomin hero grid-item col-span-4 m-col-span-12">
-          <video src="video/Promotional_Video.mp4" controls="controls"></video>
+        <div class="container hero grid-item col-span-4 m-col-span-12 text">
+          <h2>Welcome to</h2>
+          <h1>INDUSTRY NIGHT</h1>
+          <h2>From the School of Digital and Performing Arts</h2>
         </div>
       </header>
+
+      <div class="container bottomin hero grid-item col-span-4 m-col-span-12">
+        <video src="video/Promotional_Video.mp4" controls="controls"></video>
+      </div>
 
       <!-- <section id="video" class="grid-con">
         <div class="container hero grid-item col-span-4 m-col-span-12">
@@ -155,7 +147,13 @@
         </div>
 
         <div
-          class="leftin container grid-item col-span-4 m-col-start-1 m-col-end-7 box"
+          class="leftin container grid-item col-span-4 m-col-start-2 m-col-end-7 box"
+        >
+          <img src="./images/idp-main.jpg" alt="main img" />
+        </div>
+
+        <div
+          class="rightin container grid-item col-span-4 m-col-start-7 m-col-end-12 box"
         >
           <p>
             Learn about our program and how it prepares students for the
@@ -184,12 +182,6 @@
             technologies and industry-relevant tools!
           </p>
         </div>
-
-        <div
-          class="rightin container grid-item col-span-4 m-col-start-7 m-col-end-13 box"
-        >
-          <img src="./images/idp-main.jpg" alt="main img" />
-        </div>
       </section>
 
       <!-- Level 4 Client Project Section -->
@@ -200,17 +192,24 @@
         </div>
 
         <div
-          class="leftin container grid-item col-span-4 m-col-start-1 m-col-end-5 box"
+          class="leftin container grid-item col-span-4 m-col-start-2 m-col-end-7 box"
         >
           <p>
             Working in small groups and functioning as a mini-studio, level 4
             students will design, develop, and pitch a professional marketing
             and advertising campaign.
           </p>
+          <br />
+          <p>
+            The mission of Foundation Sixty 6 is to facilitate improved access
+            to mental healthcare for youth between the ages of 16 and 25
+            suffering from psychosis, bipolar disorder (BPD), and schizophrenia,
+            specifically within Southwestern Ontario.
+          </p>
         </div>
 
         <div
-          class="bottomin container grid-item hero col-span-4 m-col-start-5 m-col-end-9 box"
+          class="bottomin container grid-item hero col-span-4 m-col-start-7 m-col-end-12 box"
         >
           <!-- <div
             class="container bottomin hero grid-item col-span-4 m-col-span-12"
@@ -221,14 +220,7 @@
 
         <div
           class="rightin container grid-item col-span-4 m-col-start-9 m-col-end-13 box"
-        >
-          <p>
-            The mission of Foundation Sixty 6 is to facilitate improved access
-            to mental healthcare for youth between the ages of 16 and 25
-            suffering from psychosis, bipolar disorder (BPD), and schizophrenia,
-            specifically within Southwestern Ontario.
-          </p>
-        </div>
+        ></div>
       </section>
 
       <!-- Industry Night Gallery  -->
@@ -255,7 +247,7 @@
         <div class="grid-con">
           <img
             class="images desktop leftin m-col-span-4 l-col-span-4 xl-col-span-4 box"
-            src="images/in_pic(3).jpg"
+            src="images/1.jpg"
             alt="pic_3"
           />
           <img
@@ -352,7 +344,7 @@
           <h2>THE TESTIMONIALS</h2>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
           <h3>Marco De Luca</h3>
           <p>
             "If you are a business owner, and you don't have industry nights in
@@ -360,7 +352,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 box">
+        <div class="col-span-4 m-col-span-4 l-col-span-4 box test">
           <h3>Robert Haaf</h3>
           <p>
             "I love industry nights! This is an amazing service and it has saved
@@ -369,14 +361,14 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
           <h3>John Bennett</h3>
           <p>
             "I have tried a few software of this kind and industry nights is the
             best by far!"
           </p>
         </div>
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
           <h3>Justin Brunner</h3>
           <p>
             "If you are a business owner, and you don't have industry nights in
@@ -384,7 +376,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 box">
+        <div class="col-span-4 m-col-span-4 l-col-span-4 box test">
           <h3>Joe Kormendi</h3>
           <p>
             "I love industry nights! This is an amazing service and it has saved
@@ -393,7 +385,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
           <h3>Jarrod Osterback</h3>
           <p>
             "I have tried a few software of this kind and industry nights is the
