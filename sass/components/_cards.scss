@@ -13,7 +13,7 @@
 .card,
 ul,
 h3 {
-    font-size: 20px;
+    // font-size: 20px;
     color: #302f2f;
     margin-bottom: 5px;
 }
@@ -23,3 +23,57 @@ h3 {
     transition: transform 0.2s ease;
     background-color: #b9b8b8;
 }
+
+.card strong {
+    font-weight: bold;
+}
+
+.events-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns by default */
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card strong {
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Added space between title and details */
+}
+
+.card p {
+    color: #302f2f;
+    margin-bottom: 5px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #b9b8b8;
+}
+
+// /* Responsive adjustment */
+// @media (max-width: 768px) {
+//     .events-container {
+//         grid-template-columns: repeat(2, 1fr);
+//         /* 2 columns for tablets */
+//     }
+// }
+
+// @media (max-width: 480px) {
+//     .events-container {
+//         grid-template-columns: 1fr;
+//         /* 1 column for mobile */
+//     }
+// }
