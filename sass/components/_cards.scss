@@ -1,6 +1,7 @@
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
+    border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -8,33 +9,17 @@
     transition: background-color 0.3s ease;
 }
 
-.card h3 {
+
+.card,
+ul,
+h3 {
     font-size: 20px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.card p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-.card ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.card li {
-    font-size: 16px;
-    color: #555;
+    color: #302f2f;
     margin-bottom: 5px;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    /* Move the card 5 pixels up on hover */
     transition: transform 0.2s ease;
-    /* Add a smooth transition effect */
     background-color: #b9b8b8;
 }

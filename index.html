@@ -11,12 +11,13 @@
       rel="stylesheet"
     />
     <!--Open Sans Regular and Montserrat-->
+    <link href="css/reset.css" rel="stylesheet" />
     <link href="css/grid.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <link href="css/reset.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="./js/modules/SplitText.js" defer></script>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script type="module" src="js/main.js"></script>
@@ -44,7 +45,7 @@
           <li><a href="#students">Portfolios</a></li>
         </ul>
 
-        <ul class="hidden mobile-menu col-start-3 col-end-5">
+        <ul class="hidden mobile-menu col-span-full">
           <li><a href="#event">Event</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#students">Portfolios</a></li>
@@ -58,38 +59,33 @@
 
       <header id="about" class="grid-con">
         <div class="container hero grid-item col-span-4 m-col-span-12 text">
-          <h2>Welcome to</h2>
+          <h3>WELCOME TO</h3>
           <h1>INDUSTRY NIGHT</h1>
-          <h2>From the School of Digital and Performing Arts</h2>
+          <h3>From the School of Digital and Performing Arts</h3>
         </div>
       </header>
 
-      <div class="container bottomin hero grid-item col-span-4 m-col-span-12">
-        <video src="video/Promotional_Video.mp4" controls="controls"></video>
-      </div>
-
-      <!-- <section id="video" class="grid-con">
-        <div class="container hero grid-item col-span-4 m-col-span-12">
+      <div>
+        <div
+          class="container bottomin hero grid-item col-span-4 m-col-start-4 m-col-end-9"
+        >
+          <h2>GIVE IT A LOOK</h2>
+        </div>
+        <div class="container bottomin hero grid-item col-span-4 m-col-span-12">
           <video src="video/Promotional_Video.mp4" controls="controls"></video>
         </div>
-      </section> -->
+      </div>
 
       <section id="event" class="grid-con">
-        <div class="grid-item bottomin col-span-4 m-col-span-12 box">
-          <h2>EVENT DETAILS</h2>
-        </div>
-
         <div
-          class="card container leftin grid-item col-span-4 m-col-start-1 m-col-end-5 box"
+          class="container leftin grid-item col-span-4 m-col-start-2 m-col-end-7 box"
         >
+          <h2>EVENT DETAILS</h2>
           <p>
             The SDPA Industry Night for 2023 will showcase student projects and
             activities from the Interactive Media Design Program.
           </p>
-        </div>
-        <div
-          class="card container bottomin grid-item col-span-4 m-col-start-5 m-col-end-9 box"
-        >
+          <br />
           <p>
             We extend a cordial invitation to an evening of professional
             engagement, featuring the presentation of Capstone Projects for
@@ -97,19 +93,23 @@
             opportunity to peruse and discuss the showcased work while enjoying
             a selection of catered Food and Refreshments.
           </p>
+          <br />
+          <p>
+            <a href="https://maps.app.goo.gl/e5h6mEyb78RHC7av6" target="_blank"
+              >Find Us
+            </a>
+          </p>
         </div>
 
         <div
-          class="card rightin container grid-item col-span-4 m-col-start-9 m-col-end-13 box"
+          class="card container bottomin grid-item col-span-4 m-col-start-7 m-col-end-13 box"
         >
           <ul>
             <li>
-              <strong>Address</strong>
-              137 Dundas St <br />
-              Fanshawe LDA Building <br />
-              London, ON N6A 1E9 <br />
+              <strong>Venue</strong>
+              - 137 Dundas St, Fanshawe LDA Building, London, ON N6A 1E9
             </li>
-            <li><strong>Date</strong> April 18, 2024</li>
+            <li><strong>Date</strong> - April 18, 2024</li>
             <li>
               <strong>4:00-4:30</strong> - Industry members and guests arrive.
             </li>
@@ -131,7 +131,7 @@
 
       <section id="program" class="grid-con info">
         <div
-          class="leftin container grid-item col-span-4 m-col-start-2 m-col-end-7 box"
+          class="leftin container grid-item col-span-4 m-col-start-2 m-col-end-6 box"
         >
           <img src="./images/idp-main.jpg" alt="main img" />
         </div>
@@ -159,7 +159,9 @@
             industry-standard software. Open doors to exciting career
             opportunities in various fields. Stay ahead with emerging
             technologies and industry-relevant tools!
-
+          </p>
+          <br />
+          <p>
             <a
               href="https://www.fanshawec.ca/programs/idp3-interactive-media-design/next"
               target="_blank"
@@ -191,13 +193,9 @@
         </div>
 
         <div
-          class="bottomin container grid-item hero col-span-4 m-col-start-7 m-col-end-12 box"
+          class="bottomin container col-span-4 m-col-start-8 m-col-end-12 box"
         >
-          <!-- <div
-            class="container bottomin hero grid-item col-span-4 m-col-span-12"
-          > -->
           <video src="video/Promotional_Video.mp4" controls="controls"></video>
-          <!-- </div> -->
         </div>
 
         <div
@@ -308,10 +306,12 @@
         </div>
 
         <div class="carousel mobile">
-          <h2 class="img_text mobile col-span-4 box">THROWBACK 2022</h2>
+          <h2 class="img_text mobile col-span-4 box">
+            GLIMPSE OF 2023 INDUSTRY NIGHT
+          </h2>
           <div class="grid-con mobile col-span-4 box">
-            <img src="images/in_pic(1).jpg" alt="pic_1" />
-            <img src="images/in_pic(2).jpg" alt="pic_2" />
+            <img src="images/1.jpg" alt="pic_1" />
+            <img src="images/2.jpg" alt="pic_2" />
             <img src="images/in_pic(3).jpg" alt="pic_3" />
             <img src="images/in_pic(4).jpg" alt="pic_4" />
             <img src="images/in_pic(5).jpg" alt="pic_5" />
@@ -323,7 +323,7 @@
 
       <section id="testimonials" class="bottomin grid-con">
         <div class="grid-item col-span-4 m-col-span-12 box">
-          <h2>THE TESTIMONIALS</h2>
+          <h2>TESTIMONIALS</h2>
         </div>
 
         <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
@@ -386,7 +386,7 @@
         <div
           class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
-          <h3>Jeet Patel</h3>
+          <h3>JEET PATEL</h3>
           <p>
             <a href="https://pateljeet.com/" target="_blank">pateljeet.com</a>
           </p>
@@ -394,7 +394,7 @@
         <div
           class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
-          <h3>Sahilkumar Gosaliya</h3>
+          <h3>SAHIL GOSALIYA</h3>
           <p>
             <a href="https://sahilgosaliya.com/" target="_blank"
               >sahilgosaliya.com</a
@@ -404,7 +404,7 @@
         <div
           class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
-          <h3>Aiden Wotton</h3>
+          <h3>AIDEN WOTTON</h3>
           <p>
             <a href="http://aidenwotton.com" target="_blank">aidenwotton.com</a>
           </p>
@@ -413,7 +413,7 @@
         <div
           class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
-          <h3>Dev Pandya</h3>
+          <h3>DEV PANDYA</h3>
           <p>
             <a href="https://devpandya.com/" target="_blank">devpandya.com</a>
           </p>

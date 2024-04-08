@@ -7,11 +7,6 @@
     width: inherit;
 }
 
-.grid-con h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
-}
 
 #projects p {
     font-size: 16px;
@@ -19,7 +14,7 @@
 }
 
 #portfolio-list {
-    // background: url("../images/white_backgroud.png") no-repeat center center fixed;
+    // background: url("../images/white_background.png") no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     padding: 40px 0;
@@ -28,8 +23,4 @@
 
 p {
     text-align: left;
-}
-
-img {
-    height: 350px;
 }

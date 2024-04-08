@@ -2,13 +2,13 @@
 
     margin: 20px;
     padding: 20px;
-
-    /* border-radius: 60px; */
     transition: background-color 0.3s ease;
     border-radius: 25px;
     background: #e0e0e0;
     box-shadow: 26px 26px 27px #e9e6e6,
         -26px -26px 27px #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .p_card h3 {
@@ -17,12 +17,24 @@
     color: #333;
     text-align: center;
     flex-wrap: wrap;
+    font-weight: 600;
 }
+
 
 .p_card a {
     text-decoration: none;
     text-align: center;
-    flex-wrap: wrap;
+    color: rgb(53, 52, 52);
+    transition: transform 0.3s ease;
+    margin: 5px;
+    display: inline-block;
+
+}
+
+.p_card a:hover {
+    transform: scale(1.3);
+    color: rgb(150, 41, 41);
+
 }
 
 .p_card p {
@@ -31,6 +43,8 @@
     margin-bottom: 10px;
     text-align: center;
 }
+
+
 
 .p_card li {
     font-size: 16px;
@@ -44,7 +58,7 @@
 }
 
 #students {
-    // background: url("../images/white_backgroud.png") no-repeat center center fixed;
+    // background: url("../images/white_background.png") no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     padding: 40px 0;

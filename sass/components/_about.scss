@@ -15,7 +15,7 @@
 
 
 #about {
-    // background: url("../images/Red_Background.png") no-repeat center center fixed;
+
     background-size: cover;
     text-align: center;
     padding: 40px 0;
@@ -43,7 +43,7 @@
 .container.hero video {
     display: block;
     margin: 0 auto;
-    width: 99%;
+    width: 70%;
     // box-shadow: #681212 20px 20px 20px;
 }
 
@@ -51,30 +51,4 @@
     .container p {
         font-size: 16px;
     }
-}
-
-
-
-#customPlayButton {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    padding: 10px 20px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    cursor: pointer;
-    display: none;
-    /* Hide by default */
-}
-
-.video-player {
-    position: relative;
-}
-
-.video-player:hover #customPlayButton {
-    display: block;
-    /* Show the play button when the user hovers over the video player */
 }

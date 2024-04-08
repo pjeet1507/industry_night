@@ -132,9 +132,21 @@ export function portfolios() {
     { name: "Leila Akbari", portfolioLink: "https://www.itsleila.com" },
   ];
 
+  // Fisher-Yates shuffle algorithm
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  // Shuffle the portfolios array
+  const shuffledPortfolios = shuffleArray(portfolios);
+
   const portfolioContainer = document.querySelector("#portfolio-container");
 
-  portfolios.forEach(function (portfolio) {
+  shuffledPortfolios.forEach(function (portfolio) {
     const portfolioDiv = document.createElement("div");
     portfolioDiv.classList.add(
       "portfolio-item",
@@ -142,7 +154,7 @@ export function portfolios() {
       "m-col-span-3",
       "box"
     );
-    portfolioDiv.innerHTML = `<h3>${portfolio.name}</h3> <a href="${
+    portfolioDiv.innerHTML = `<h4>${portfolio.name}</h4> <a href="${
       portfolio.portfolioLink
     }" target="_blank">${portfolio.name
       .split(" ")[0][0]
