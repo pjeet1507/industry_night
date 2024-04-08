@@ -1,35 +1,36 @@
 .portfolio-item {
-    background-color: rgba($color: #8d8d8d, $alpha: 0.3);
-    backdrop-filter: blur(5px);
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    // background-color: rgba($color: #8d8d8d, $alpha: 0.3);
+    // backdrop-filter: blur(5px);
+    // border-radius: 20px;
+    // box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     /* Add a subtle drop shadow */
-    transition: ease 1s;
+    // transition: ease 0.3s;
 
-    &:hover {
-        background-color: rgba($color: #e6e6e6, $alpha: 0.8);
-        // transform: scale(0.9);
+    // &:hover {
+    //     background-color: rgba($color: #e6e6e6, $alpha: 0.8);
+    //     // transform: scale(0.9);
 
-        h3,
-        a {
-            transform: scale(1.1);
-            cursor: pointer;
-            filter: drop-shadow(7px 7px 10px);
-        }
-    }
+    //     h3,
+    //     a {
+    //         transform: scale(1.1);
+    //         cursor: pointer;
+    //         filter: drop-shadow(7px 7px 10px);
+    //     }
+
 }
 
 
+
 .portfolio-item h3 {
-    font-size: 1.5em;
+    // font-size: 1.5em;
     margin-bottom: 10px;
-    transition: ease 1s;
+    transition: ease 0.3s;
 
 }
 
 .portfolio-item a {
     color: #333;
     text-decoration: none;
-    transition: ease 1s;
+    transition: ease 0.3s;
 
 }
