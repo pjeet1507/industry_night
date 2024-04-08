@@ -1,6 +1,9 @@
 export function portfolios() {
   const portfolios = [
-    { name: "Kwency Maye Dahilan", portfolioLink: "https://kwencydesigns.ca/" },
+    {
+      name: "Kwency Maye Dahilan",
+      portfolioLink: "https://kwencydesigns.ca/",
+    },
     { name: "Marianne Kaye Febra", portfolioLink: "https://mazzfebra.com/" },
     { name: "Sophia Westrop", portfolioLink: "https://sophiawestrop.com" },
     { name: "Harsh Patel", portfolioLink: "https://patelharsh.ca/" },

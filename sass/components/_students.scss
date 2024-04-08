@@ -1,11 +1,14 @@
 .p_card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+
+    margin: 20px;
     padding: 20px;
-    margin-bottom: 20px;
+
     /* border-radius: 60px; */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    border-radius: 25px;
+    background: #e0e0e0;
+    box-shadow: 26px 26px 27px #e9e6e6,
+        -26px -26px 27px #ffffff;
 }
 
 .p_card h3 {
@@ -13,11 +16,13 @@
     margin-bottom: 10px;
     color: #333;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .p_card a {
     text-decoration: none;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .p_card p {
