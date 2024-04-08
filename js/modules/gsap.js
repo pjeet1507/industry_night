@@ -1,5 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.registerPlugin(SplitText);
+
 export function leftandright() {
   function slideInFromLeft(element, staggerValue) {
     gsap.from(element, {
@@ -95,5 +97,18 @@ export function leftandright() {
       slideInFromBottom(parentElement, 0);
       slideInChildren(parentElement, "bottom");
     }
+  });
+}
+export function Splittext() {
+  gsap.registerPlugin(SplitText);
+
+  const split = new SplitText("#about h1,#about h3", { type: "chars" });
+
+  const typingText = gsap.timeline().from(split.chars, {
+    duration: 0.01,
+    autoAlpha: 0,
+    stagger: {
+      each: 0.1,
+    },
   });
 }

@@ -1,7 +1,8 @@
-.portfolio-item h3 {
+.portfolio-item h4 {
     font-size: 1.1em;
     margin-bottom: 10px;
     transition: ease 0.3s;
+    font-weight: 600;
 
 
 
@@ -10,6 +11,26 @@
 .portfolio-item a {
     color: #333;
     text-decoration: none;
-    transition: ease 0.3s;
+}
 
+.portfolio-item a:hover {
+    color: rgb(207, 9, 9);
+}
+
+
+.portfolio-item {
+    border-radius: 10px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for transform and box-shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Initial subtle shadow */
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    /* Moves the container up to create a floating effect */
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
+    /* Increased shadow to enhance the floating effect */
 }
