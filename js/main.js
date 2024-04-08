@@ -12,7 +12,7 @@ portfolios();
 accordian();
 hambur();
 navgsap();
-// leftandright();
+leftandright();
 DomainLinkFix();
 
 window.onscroll = function () {
