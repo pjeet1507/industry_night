@@ -11,28 +11,30 @@ footer {
 }
 
 .fan-logo {
+    img {
+        color: white;
+    }
+}
+
+.social {
     display: flex;
     align-items: center;
     justify-content: center;
 
     img {
-        width: 80px;
+        width: 60px;
+        height: 60px;
+        padding: 10px;
     }
-}
 
-.social {
-    width: 80px;
-    height: auto;
-    mix-blend-mode: overlay;
-    color: white;
-    padding: 3px;
 }
 
 #footer {
+
     background-size: cover;
     text-align: center;
     /* padding: 40px 0; */
-    background-color: rgb(110, 103, 103);
+    background-color: #e02726;
 }
 
 #footer h3 {

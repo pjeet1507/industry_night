@@ -11,7 +11,7 @@ export function leftandright() {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        end: "bottom center",
+        end: "+=500",
         scrub: true,
       },
       clearProps: "scale,left,opacity,transform",
@@ -28,7 +28,7 @@ export function leftandright() {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        end: "bottom center",
+        end: "+=500",
         scrub: true,
       },
       clearProps: "scale,left,opacity,transform",
@@ -45,7 +45,7 @@ export function leftandright() {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        end: "bottom center",
+        end: "+=500",
         scrub: true,
       },
       clearProps: "scale,left,opacity,transform",
@@ -74,7 +74,7 @@ export function leftandright() {
         scrollTrigger: {
           trigger: parentElement,
           start: "top 85%",
-          end: "bottom center",
+          end: "+=500",
           scrub: true,
         },
       });

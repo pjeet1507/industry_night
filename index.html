@@ -14,13 +14,24 @@
     <link href="css/grid.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/reset.css" rel="stylesheet" />
-    <script type="module" src="js/main.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script type="module" src="js/main.js"></script>
   </head>
 
   <body>
     <main>
+      <!--    
+      <div id="particles-js"></div>
+
+      <div class="count-particles">
+        <span class="js-count-particles">--</span> particles
+      </div>
+
+      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+      <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
       <!-- Navigation Bar -->
       <div id="banner" class="full-width-grid-con"></div>
       <nav class="grid-con nav">
@@ -60,7 +71,7 @@
             From the School of Digital and Performing Arts
           </h3>
         </div>
-        <div class="container hero grid-item col-span-4 m-col-span-12">
+        <div class="container bottomin hero grid-item col-span-4 m-col-span-12">
           <video src="video/Promotional_Video.mp4" controls="controls"></video>
         </div>
       </header>
@@ -72,7 +83,7 @@
       </section> -->
 
       <section id="event" class="grid-con">
-        <div class="grid-item col-span-4 m-col-span-12 box">
+        <div class="grid-item bottomin col-span-4 m-col-span-12 box">
           <h2>EVENT DETAILS</h2>
         </div>
 
@@ -92,7 +103,7 @@
           </p>
         </div>
         <div
-          class="card container leftin grid-item col-span-4 m-col-start-5 m-col-end-9 box"
+          class="card container bottomin grid-item col-span-4 m-col-start-5 m-col-end-9 box"
         >
           <p>
             Dear, Industry Professionals, <br />
@@ -139,12 +150,12 @@
       </section>
 
       <section id="program" class="grid-con info">
-        <div class="grid-item col-span-4 m-col-span-12 box">
+        <div class="grid-item bottomin col-span-4 m-col-span-12 box">
           <h2>INTERACTIVE MEDIA DESIGN</h2>
         </div>
 
         <div
-          class="leftin container grid-item col-span-4 m-col-start-1 m-col-end-5 box"
+          class="leftin container grid-item col-span-4 m-col-start-1 m-col-end-7 box"
         >
           <p>
             Learn about our program and how it prepares students for the
@@ -164,17 +175,7 @@
               >Click Here for More</a
             >
           </p>
-        </div>
-
-        <div
-          class="leftin container grid-item col-span-4 m-col-start-5 m-col-end-9 box"
-        >
-          <img />
-        </div>
-
-        <div
-          class="leftin container grid-item col-span-4 m-col-start-9 m-col-end-13 box"
-        >
+          <br />
           <p>
             Why Choose Us? Gain a comprehensive skill-set in web design, coding,
             animation, and more. Access cutting-edge facilities and
@@ -183,12 +184,18 @@
             technologies and industry-relevant tools!
           </p>
         </div>
+
+        <div
+          class="rightin container grid-item col-span-4 m-col-start-7 m-col-end-13 box"
+        >
+          <img src="./images/idp-main.jpg" alt="main img" />
+        </div>
       </section>
 
       <!-- Level 4 Client Project Section -->
 
       <section id="projects" class="grid-con info">
-        <div class="grid-item col-span-4 m-col-span-12 box">
+        <div class="grid-item bottomin col-span-4 m-col-span-12 box">
           <h2>EVENT DETAILS</h2>
         </div>
 
@@ -203,13 +210,17 @@
         </div>
 
         <div
-          class="leftin container grid-item col-span-4 m-col-start-5 m-col-end-9 box"
+          class="bottomin container grid-item hero col-span-4 m-col-start-5 m-col-end-9 box"
         >
-          <img />
+          <!-- <div
+            class="container bottomin hero grid-item col-span-4 m-col-span-12"
+          > -->
+          <video src="video/Promotional_Video.mp4" controls="controls"></video>
+          <!-- </div> -->
         </div>
 
         <div
-          class="leftin container grid-item col-span-4 m-col-start-9 m-col-end-13 box"
+          class="rightin container grid-item col-span-4 m-col-start-9 m-col-end-13 box"
         >
           <p>
             The mission of Foundation Sixty 6 is to facilitate improved access
@@ -225,17 +236,17 @@
         <h2 class="hidden">Gallery</h2>
         <div class="grid-con">
           <img
-            class="images desktop m-col-span-5 l-col-span-5 xl-col-span-5 box"
+            class="images leftin desktop m-col-span-5 l-col-span-5 xl-col-span-5 box"
             src="images/in_pic(1).jpg"
             alt="pic_1"
           />
           <h2
-            class="img_text desktop m-col-span-12 l-col-span-2 xl-col-span-2 box"
+            class="img_text bottomin desktop m-col-span-12 l-col-span-2 xl-col-span-2 box"
           >
             GLIMPSE OF 2023 INDUSTRY NIGHT
           </h2>
           <img
-            class="images desktop m-col-span-5 l-col-span-5 xl-col-span-5 box"
+            class="images rightin desktop m-col-span-5 l-col-span-5 xl-col-span-5 box"
             src="images/in_pic(2).jpg"
             alt="pic_2"
           />
@@ -243,17 +254,17 @@
 
         <div class="grid-con">
           <img
-            class="images desktop m-col-span-4 l-col-span-4 xl-col-span-4 box"
+            class="images desktop leftin m-col-span-4 l-col-span-4 xl-col-span-4 box"
             src="images/in_pic(3).jpg"
             alt="pic_3"
           />
           <img
-            class="images desktop m-col-span-4 l-col-span-4 xl-col-span-4 box"
+            class="images desktop bottomin m-col-span-4 l-col-span-4 xl-col-span-4 box"
             src="images/in_pic(4).jpg"
             alt="pic_4"
           />
           <img
-            class="images desktop m-col-span-4 l-col-span-4 xl-col-span-4 box"
+            class="images desktop rightin m-col-span-4 l-col-span-4 xl-col-span-4 box"
             src="images/in_pic(5).jpg"
             alt="pic_5"
           />
@@ -261,12 +272,12 @@
 
         <div class="grid-con">
           <img
-            class="images desktop m-col-span-6 l-col-span-6 xl-col-span-6 box"
+            class="images leftin desktop m-col-span-6 l-col-span-6 xl-col-span-6 box"
             src="images/in_pic(6).jpg"
             alt="pic_6"
           />
           <img
-            class="images desktop m-col-span-6 l-col-span-6 xl-col-span-6 box"
+            class="images rightin desktop m-col-span-6 l-col-span-6 xl-col-span-6 box"
             src="images/in_pic(7).jpg"
             alt="pic_7"
           />
@@ -336,12 +347,12 @@
         </div>
       </section>
 
-      <section id="testimonials" class="grid-con">
+      <section id="testimonials" class="bottomin grid-con">
         <div class="grid-item col-span-4 m-col-span-12 box">
           <h2>THE TESTIMONIALS</h2>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
           <h3>Marco De Luca</h3>
           <p>
             "If you are a business owner, and you don't have industry nights in
@@ -349,7 +360,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 bottomin box">
+        <div class="col-span-4 m-col-span-4 l-col-span-4 box">
           <h3>Robert Haaf</h3>
           <p>
             "I love industry nights! This is an amazing service and it has saved
@@ -358,14 +369,14 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
           <h3>John Bennett</h3>
           <p>
             "I have tried a few software of this kind and industry nights is the
             best by far!"
           </p>
         </div>
-        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
           <h3>Justin Brunner</h3>
           <p>
             "If you are a business owner, and you don't have industry nights in
@@ -373,7 +384,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 bottomin box">
+        <div class="col-span-4 m-col-span-4 l-col-span-4 box">
           <h3>Joe Kormendi</h3>
           <p>
             "I love industry nights! This is an amazing service and it has saved
@@ -382,7 +393,7 @@
           </p>
         </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 bottomin box">
+        <div class="col-span-4 m-col-span-3 l-col-span-4 box">
           <h3>Jarrod Osterback</h3>
           <p>
             "I have tried a few software of this kind and industry nights is the
@@ -393,29 +404,13 @@
       </section>
 
       <!-- Student Portfolios Section -->
-      <section id="students" class="grid-con">
+      <section id="students" class="bottomin grid-con">
         <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
           <h2>MEET THE DEVELOPERS</h2>
         </div>
 
         <div
-          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
-        >
-          <h3>Aidan Wotton</h3>
-          <p>
-            <a href="http://aidenwotton.com" target="_blank">aidenwotton.com</a>
-          </p>
-        </div>
-        <div
-          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
-        >
-          <h3>Dev Pandya</h3>
-          <p>
-            <a href="https://devpandya.com/" target="_blank">devpandya.com</a>
-          </p>
-        </div>
-        <div
-          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
           <h3>Jeet Patel</h3>
           <p>
@@ -423,7 +418,7 @@
           </p>
         </div>
         <div
-          class="bottomin p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
         >
           <h3>Sahilkumar Gosaliya</h3>
           <p>
@@ -432,10 +427,27 @@
             >
           </p>
         </div>
+        <div
+          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+        >
+          <h3>Aiden Wotton</h3>
+          <p>
+            <a href="http://aidenwotton.com" target="_blank">aidenwotton.com</a>
+          </p>
+        </div>
+
+        <div
+          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
+        >
+          <h3>Dev Pandya</h3>
+          <p>
+            <a href="https://devpandya.com/" target="_blank">devpandya.com</a>
+          </p>
+        </div>
       </section>
 
       <section id="portfolio-list">
-        <div class="grid-con">
+        <div class="bottomin grid-con">
           <div
             class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
           >
@@ -443,7 +455,7 @@
           </div>
         </div>
 
-        <div id="portfolio-container" class="grid-con">
+        <div id="portfolio-container" class="grid-con bottomin">
           <!-- Portfolios will be added here dynamically with JavaScript -->
         </div>
       </section>
@@ -451,27 +463,29 @@
     <!-- Footer Section -->
     <footer id="footer" class="grid-con">
       <section class="grid-item col-span-4 m-col-start-5 m-col-end-9 box">
-        <div class="fan-logo">
+        <div class="social">
           <a href="index.html">
             <img src="images/f_logo.svg" alt="fanshawe logo"
           /></a>
         </div>
-        <h3>copyright @ fanshawe 2024</h3>
-        <a
-          href="https://www.instagram.com/fanshawecollege/?hl=en"
-          target="_blank"
-        >
-          <img class="social" src="images/insta.png" alt="instagram"
-        /></a>
-        <a href="https://www.youtube.com/myfanshawe" target="_blank">
-          <img class="social" src="images/yt.png" alt="youtube" />
-        </a>
-        <a href="https://www.facebook.com/FanshaweCollege/" target="_blank">
-          <img class="social" src="images/fb.png" alt="facebook" />
-        </a>
+        <div class="social">
+          <h3>copyright @ fanshawe 2024</h3>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.instagram.com/fanshawecollege/?hl=en"
+            target="_blank"
+          >
+            <img src="images/insta.png" alt="instagram"
+          /></a>
+          <a href="https://www.youtube.com/myfanshawe" target="_blank">
+            <img src="images/yt.png" alt="youtube" />
+          </a>
+          <a href="https://www.facebook.com/FanshaweCollege/" target="_blank">
+            <img src="images/fb.png" alt="facebook" />
+          </a>
+        </div>
       </section>
     </footer>
-
-    <!-- JavaScript for dynamic content -->
   </body>
 </html>

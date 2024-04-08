@@ -4,7 +4,6 @@ import { hambur } from "./modules/hambur.js";
 import { updateProgressBar } from "./modules/progessbar.js";
 import { navgsap } from "./modules/hambur.js";
 import { leftandright } from "./modules/gsap.js";
-import { DomainLinkFix } from "./modules/DomainLinkFix.js";
 import { pagegsap } from "./modules/pagegsap.js";
 
 pagegsap();
@@ -13,7 +12,6 @@ accordian();
 hambur();
 navgsap();
 leftandright();
-DomainLinkFix();
 
 window.onscroll = function () {
   updateProgressBar();
