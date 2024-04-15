@@ -1,253 +1,250 @@
 nav {
-    background-color: #e02726;
-    color: #fff;
-    padding: 10px 0;
-    align-items: center;
-
+  background-color: #e02726;
+  color: #fff;
+  padding: 10px 0;
+  align-items: center;
 }
 
 nav img {
-    width: 50px;
-    justify-self: end;
+  width: 50px;
+  justify-self: end;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 nav .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
 }
 
 nav .logo {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 menu {
-    display: none;
+  display: none;
 }
 
 nav ul.menu {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul.menu li {
-    display: none;
-    margin-right: 15px;
+  display: none;
+  margin-right: 15px;
 }
 
 nav ul.menu li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 nav a {
-    color: white;
+  color: white;
+}
+
+.main-logo {
+  padding-left: 30px;
 }
 
 /* Navigation Links Hover_ Animation */
 
 /* Stylizing the navigation links */
 nav ul.menu li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s, text-decoration 0.3s;
-    /* Added a transition for smooth hover effect */
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s, text-decoration 0.3s;
 }
 
-/* Apply the hover effect */
 nav ul.menu li a:hover {
-    color: #646469;
-    /* Change the text color on hover */
-    text-decoration: underline;
-    /* Added underline on hover */
-}
+  color: #646469;
 
-.nav {
-    padding-top: 20px;
+  text-decoration: underline;
 }
-
 
 body {
-    background-color: whitesmoke;
-    color: black;
+  background-color: whitesmoke;
+  color: black;
 }
 
 header {
-    text-align: center;
-    padding: 10px 0;
-    height: 80vh;
+  text-align: center;
+  padding: 10px 0;
+  height: 80vh;
 }
 
 header h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 header p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 730px) {
+  nav ul.menu li {
+    display: inline;
+    font-size: 14px;
+  }
 
-    nav ul.menu li {
-        display: inline;
-        font-size: 14px;
-    }
+  #hammenu {
+    display: none;
+  }
 
-    #hammenu {
-        display: none;
-    }
+  .mobile-menu {
+    display: none;
+  }
 
-    .mobile-menu {
-        display: none;
-    }
-
-    .menu {
-        justify-self: end;
-    }
+  .menu {
+    justify-self: end;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    h1 {
-        font-size: 32px;
-    }
+  h1 {
+    font-size: 32px;
+  }
 
-    nav ul.menu li {
-        font-size: 16px;
-        margin-right: 20px;
-    }
-
+  nav ul.menu li {
+    font-size: 16px;
+    margin-right: 20px;
+  }
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* ---- reset ---- */
 body {
-    margin: 0;
-    // font: normal 75% Arial, Helvetica, sans-serif;
+  margin: 0;
+  // font: normal 75% Arial, Helvetica, sans-serif;
 }
 
 canvas {
-    display: block;
-    vertical-align: bottom;
+  display: block;
+  // vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
 #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #0b0b0b;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    mix-blend-mode: multiply;
-    filter: invert(100%);
-    // z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0b0b0b;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: multiply;
+  filter: invert(100%);
+  // z-index: -1;
 }
-
-/* ---- stats.js ---- */
-
-
-.js-count-particles {
-    font-size: 1.1em;
-}
-
-
-.count-particles {
-    -webkit-user-select: none;
-    margin-top: 5px;
-    margin-left: 5px;
-}
-
-#stats {
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
-}
-
-.count-particles {
-    border-radius: 0 0 3px 3px;
-}
-
-
 
 h2 {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
-
 h1 {
-    margin: 25px;
+  margin: 25px;
 }
 
 li {
-    text-align: left;
+  text-align: left;
 }
-
 
 #testimonials,
 #students,
 #portfolio-list,
 .hero {
-    h2 {
-        text-align: center;
-    }
+  h2 {
+    text-align: center;
+  }
 }
 
-
-.container img {
+.container {
+  img {
     filter: drop-shadow(-10px -10px 5px rgba(0, 0, 0, 0.25));
     height: 350px;
+  }
 }
 
-
+// img {
+//   filter: drop-shadow(-10px -10px 5px rgba(0, 0, 0, 0.25));
+//   height: 350px;
+// }
 
 .container video {
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
-    width: 37vw;
-    margin-left: -150px;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
+  width: 37vw;
+  margin-left: -150px;
+}
+
+.container {
+  .thanks {
+    padding-top: 10px;
+    text-align: right;
+  }
 }
 
 #about {
-    h3 {
-        font-size: 25px;
-        font-weight: 400;
-    }
+  h3 {
+    font-size: 25px;
+    font-weight: 400;
+  }
 }
-
 
 @media screen and (max-width: 1200px) {
-    .container video {
-        filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
-        width: 45vw;
-        margin-left: -100px;
-    }
+  .container video {
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
+    width: 45vw;
+    margin-left: -100px;
+  }
 
-    .container img {
-        height: 200px;
-    }
-
-
+  .container img {
+    height: 200px;
+  }
 }
 
-
 @media screen and (max-width: 730px) {
-    .container video {
-        filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
-        width: 80vw;
-        margin: auto;
+  .container video {
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
+    width: 80vw;
+    margin: auto;
+  }
 
-    }
+  .container img {
+    height: 250px;
+  }
+}
 
-    .container img {
-        height: 250px;
-    }
+// #finalists img {
+//   width: 100%;
+//   height: 30vh;
+// }
 
+// #runnerup img {
+//   width: 100%;
+//   height: 30vh;
+// }
 
+.bold {
+  font-weight: bold;
+}
+
+.bottomin a.bold {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #e02726;
 }

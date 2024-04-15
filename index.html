@@ -1,469 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Industry Night</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <!--Open Sans Regular and Montserrat-->
-    <link href="css/reset.css" rel="stylesheet" />
-    <link href="css/grid.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <script src="./js/modules/SplitText.js" defer></script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-    <script type="module" src="js/main.js"></script>
-  </head>
 
-  <body>
-    <main>
-      <!-- Navigation Bar -->
-      <div id="banner" class="full-width-grid-con"></div>
-      <nav class="grid-con nav">
-        <h1
-          class="leftin col-start-1 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4"
-        >
-          INDUSTRY NIGHT
-        </h1>
-        <img
-          id="hammenu"
-          class="col-start-4 col-end-5"
-          src="images/hammenu.svg"
-          alt="hamburger menu"
-        />
-        <ul class="menu m-col-start-4 m-col-end-13 l-col-start-5 l-col-end-13">
-          <li><a href="#event">Event</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#students">Portfolios</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Industry Night</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet" />
+  <!--Open Sans Regular and Montserrat-->
+  <link href="css/reset.css" rel="stylesheet" />
+  <link href="css/grid.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script src="./js/modules/SplitText.js" defer></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</head>
 
-        <ul class="hidden mobile-menu col-span-full">
-          <li><a href="#event">Event</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#students">Portfolios</a></li>
-        </ul>
-      </nav>
-      <div id="particles-js"></div>
-      <!-- Header Section -->
-      <div id="progress-container">
-        <div id="progress-bar"></div>
+<body>
+  <main>
+    <!-- Navigation Bar -->
+    <div id="banner" class="full-width-grid-con"></div>
+    <nav class="grid-con nav">
+
+      <div class="col-start-1 col-end-4 m-col-start-1 m-col-end-3 main-logo">
+        <a href="index.html">
+          <img src="images/f_logo.svg" alt="fanshawe logo" /></a>
       </div>
 
-      <header id="about" class="grid-con">
-        <div class="container hero grid-item col-span-4 m-col-span-12 text">
-          <h3>WELCOME TO</h3>
-          <h1>INDUSTRY NIGHT</h1>
-          <h3>From the School of Digital and Performing Arts</h3>
-        </div>
-      </header>
+      <img id="hammenu" class="col-start-4 col-end-5" src="images/hammenu.svg" alt="hamburger menu" />
+      <ul class="menu m-col-start-4 m-col-end-13 l-col-start-5 l-col-end-13">
+        <li><a href="#event">EVENT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#students">PORTFOLIOS</a></li>
+      </ul>
 
-      <div>
-        <div
-          class="container bottomin hero grid-item col-span-4 m-col-start-4 m-col-end-9"
-        >
-          <h2>GIVE IT A LOOK</h2>
-        </div>
-        <div class="container bottomin hero grid-item col-span-4 m-col-span-12">
-          <video src="video/Promotional_Video.mp4" controls="controls"></video>
-        </div>
+      <ul class="hidden mobile-menu col-span-full">
+        <li><a href="#event">EVENT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#students">PORTFOLIOS</a></li>
+      </ul>
+    </nav>
+    <div id="particles-js"></div>
+    <!-- Header Section -->
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <header id="about" class="grid-con">
+      <div class="container hero grid-item col-span-4 m-col-span-12 text">
+        <h3> JOIN US FOR</h3>
+        <h1>FANSHAWE COLLEGE INDUSTRY NIGHT 2024</h1>
+        <h3> Interactive Media Design & User Experience Design Programs</h3>
+        <br>
+        <h3> School of Media & Digital Arts</h3>
+      </div>
+    </header>
+
+
+    <section id="projects" class="grid-con info">
+      <div class="container bottomin hero grid-item col-span-4 m-col-start-3 m-col-end-11 box">
+        <h2>STUDENT CAPSTONE PROJECT - FOUNDATION SIXTY6</h2>
       </div>
 
-      <section id="event" class="grid-con">
-        <div
-          class="container leftin grid-item col-span-4 m-col-start-2 m-col-end-7 box"
-        >
-          <h2>EVENT DETAILS</h2>
-          <p>
-            The SDPA Industry Night for 2023 will showcase student projects and
-            activities from the Interactive Media Design Program.
-          </p>
-          <br />
-          <p>
-            We extend a cordial invitation to an evening of professional
-            engagement, featuring the presentation of Capstone Projects for
-            Foundation Sixty 6 and Student Portfolios. Attendees will have the
-            opportunity to peruse and discuss the showcased work while enjoying
-            a selection of catered Food and Refreshments.
-          </p>
-          <br />
-          <p>
-            <a href="https://maps.app.goo.gl/e5h6mEyb78RHC7av6" target="_blank"
-              >Find Us
-            </a>
-          </p>
+      <div class="bottomin container hero grid-item col-span-4 m-col-start-4 m-col-end-10 box">
+        <p>
+          Working in small groups and functioning as a mini-studio, level 4
+          students will design, develop, and pitch a professional marketing
+          and advertising campaign.
+        </p>
+        <br />
+        <p>
+          The mission of Foundation Sixty 6 is to facilitate improved access
+          to mental healthcare for youth between the ages of 16 and 25
+          suffering from psychosis, bipolar disorder (BPD), and schizophrenia,
+          specifically within Southwestern Ontario.
+        </p>
+      </div>
+
+      <div class="container bottomin hero grid-item col-span-4 m-col-span-12">
+        <video controls playsinline poster="images/Thumbnail_for_video.png" id="plyr-video">
+          <source src="video/video 2.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+
+      <div class="bottomin hero grid-item col-span-4 m-col-start-4 m-col-end-10">
+        <h4>Special Thanks to <a target="_blank" href="https://jonathanyabes.ca" class="bold">Jonathan Yabes</a> for
+          Video </h4>
+      </div>
+
+
+    </section>
+
+    <section id="event" class="grid-con">
+      <div class="container leftin grid-item col-span-4 m-col-start-2 m-col-end-7 box">
+        <h2>EVENT DETAILS</h2>
+        <p>
+          The SDPA Industry Night for 2023 will showcase student projects and
+          activities from the Interactive Media Design Program.
+        </p>
+        <br />
+        <p>
+          We extend a cordial invitation to an evening of professional
+          engagement, featuring the presentation of Capstone Projects for
+          Foundation Sixty 6 and Student Portfolios. Attendees will have the
+          opportunity to peruse and discuss the showcased work while enjoying
+          a selection of catered Food and Refreshments.
+        </p>
+        <br />
+        <p class="button-wraper">
+          <a class="button" href="https://maps.app.goo.gl/e5h6mEyb78RHC7av6" target="_blank">Find Us <span>>></span>
+          </a>
+        </p>
+      </div>
+
+      <div class="events-container container rightin grid-item col-span-4 m-col-start-7 m-col-end-12 box">
+        <div class="card">
+          <span>DATE</span>
+          <p class="text-center">APRIL 18, 2024</p>
         </div>
-
-        <div
-          class="events-container container leftin grid-item col-span-4 m-col-start-7 m-col-end-12 box"
-        >
-          <div class="card">
-            <strong>Date</strong>
-            <p>April 18, 2024</p>
-          </div>
-          <div class="card">
-            <strong>Venue</strong>
-            <p>137 Dundas St, Fanshawe LDA Building, London, ON N6A 1E9</p>
-          </div>
-
-          <!-- Repeat for each item -->
-          <div class="card">
-            <strong>4:00-4:30</strong>
-            <p>Industry members and guests arrive.</p>
-          </div>
-          <div class="card">
-            <strong>4:30-6:00</strong>
-            <p>Spotlight Presentations (The Good Foundation Inc. Theatre)</p>
-          </div>
-          <div class="card">
-            <strong>6:00-7:00</strong>
-            <p>Student Portfolio Viewing (Level 4 Labs)</p>
-          </div>
-          <div class="card">
-            <strong>7:00-8:00</strong>
-            <p>Food & Drinks/Mingle & Networking (The Chef's Table)</p>
-          </div>
+        <div class="card card-location">
+          <span>VENUE</span>
+          <a href="https://maps.app.goo.gl/e5h6mEyb78RHC7av6" target="_blank">137 Dundas St, Fanshawe LDA Building,
+            London, ON N6A 1E9</a>
         </div>
-      </section>
-
-      <section id="program" class="grid-con info">
-        <div
-          class="leftin container grid-item col-span-4 m-col-start-2 m-col-end-6 box"
-        >
-          <img src="./images/idp-main.jpg" alt="main img" />
+        <div class="card">
+          <span>4:00 PM - 4:30 PM</span>
+          <p>Industry members and Guests arrival</p>
         </div>
-
-        <div
-          class="rightin container grid-item col-span-4 m-col-start-7 m-col-end-12 box"
-        >
-          <h2>INTERACTIVE MEDIA DESIGN</h2>
-          <p>
-            Learn about our program and how it prepares students for the
-            industry.
-          </p>
-          <br />
-
-          <p>
-            Unlock Your Digital Creativity Future with Us! Explore a world of
-            digital design, development, and innovation in our two-year
-            Interactive Media Design program at Fanshawe College.
-          </p>
-
-          <br />
-          <p>
-            Why Choose Us? Gain a comprehensive skill-set in web design, coding,
-            animation, and more. Access cutting-edge facilities and
-            industry-standard software. Open doors to exciting career
-            opportunities in various fields. Stay ahead with emerging
-            technologies and industry-relevant tools!
-          </p>
-          <br />
-          <p>
-            <a
-              href="https://www.fanshawec.ca/programs/idp3-interactive-media-design/next"
-              target="_blank"
-              >Learn More</a
-            >
-          </p>
+        <div class="card">
+          <span>4:30 PM - 6:00 PM</span>
+          <p>Spotlight Presentations</p>
+          <p>[At The Good Foundation Inc. Theatre]</p>
         </div>
-      </section>
-
-      <!-- Level 4 Client Project Section -->
-
-      <section id="projects" class="grid-con info">
-        <div
-          class="leftin container grid-item col-span-4 m-col-start-2 m-col-end-7 box"
-        >
-          <h2>CAPSTONE PROJECT LEVEL 4</h2>
-          <p>
-            Working in small groups and functioning as a mini-studio, level 4
-            students will design, develop, and pitch a professional marketing
-            and advertising campaign.
-          </p>
-          <br />
-          <p>
-            The mission of Foundation Sixty 6 is to facilitate improved access
-            to mental healthcare for youth between the ages of 16 and 25
-            suffering from psychosis, bipolar disorder (BPD), and schizophrenia,
-            specifically within Southwestern Ontario.
-          </p>
+        <div class="card">
+          <span>6:00 PM - 7:00 PM</span>
+          <p>Student Portfolio Viewing</p>
+          <p>[At Level 4 Labs]</p>
         </div>
-
-        <div
-          class="bottomin container col-span-4 m-col-start-8 m-col-end-12 box"
-        >
-          <video src="video/Promotional_Video.mp4" controls="controls"></video>
+        <div class="card">
+          <span>7:00 PM - 8:00 PM</span>
+          <p>Culinary Delights and Networking</p>
+          <p>[At The Chef's Table]</p>
         </div>
+      </div>
+    </section>
 
-        <div
-          class="rightin container grid-item col-span-4 m-col-start-9 m-col-end-13 box"
-        ></div>
-      </section>
 
-      <!-- Industry Night Gallery  -->
-      <section id="gallery">
-        <h2 class="hidden">Gallery</h2>
-        <div class="grid-con">
-          <img
-            class="images leftin desktop m-col-span-5 l-col-span-5 xl-col-span-5 box"
-            src="images/in_pic(1).jpg"
-            alt="pic_1"
-          />
-          <h2
-            class="img_text bottomin desktop m-col-span-12 l-col-span-2 xl-col-span-2 box"
-          >
-            GLIMPSE OF 2023 INDUSTRY NIGHT
-          </h2>
-          <img
-            class="images rightin desktop m-col-span-5 l-col-span-5 xl-col-span-5 box"
-            src="images/in_pic(2).jpg"
-            alt="pic_2"
-          />
+
+    <!-- Level 4 Client Project Section -->
+
+
+
+    <section id="finalists" class="grid-con info">
+      <div class="bottomin grid-item col-span-4 m-col-start-2 m-col-end-12 box">
+        <h2 class="text-center">HERE ARE THE FINALISTS</h2>
+      </div>
+
+      <div class="leftin final-team-div grid-item col-span-4 m-col-start-1 m-col-end-5 box">
+        <img class="final-img" src="images/jonathan.png">
+        <h3>FINALIST #1</h3>
+        <p>
+          <a target="_blank" href="https://jazzydesigns.ca">Jasmine Chicoine</a> |
+          <a target="_blank" href="https://devianodamesporfolio.com/">Deviano Dames</a> |
+          <a target="_blank" href="https://spencerabbott.ca/">Spencer Abbott</a> |
+          <a target="_blank" href="https://alexhuanginnovation.com/">Shih-Hsuan Huang</a> |
+          <a target="_blank" href="https://jonathanyabes.ca">Jonathan Yabes</a> |
+          <a target="_blank" href="https://dipidomain.com/">Spencer Dipierdomenico</a>
+
+        </p>
+
+
+      </div>
+
+      <div class="bottomin final-team-div col-span-4 m-col-start-5 m-col-end-9 box">
+        <img class="final-img" src="images/mazz.png">
+        <br>
+        <h3>FINALIST #2</h3>
+        <p>
+          <a target="_blank" href="https://www.patriciamartins.ca/">Patricia Martins</a> |
+          <a target="_blank" href="https://louihernandez.ca">Loui Hernandez</a> |
+          <a target="_blank" href="https://valentina-perez.com/">Valentina Perez</a> |
+          <a target="_blank" href="https://mazzfebra.com/">Marianne Febra</a> |
+          <a target="_blank" href="https://suminlee.com/">Sumin Lee</a>
+
+        </p>
+      </div>
+
+      <div class="rightin final-team-div col-span-4 m-col-start-9 m-col-end-13 box">
+        <img class="final-img" src="images/dan.png">
+        <br>
+        <h3>FINALIST #3</h3>
+        <p>
+          <a target="_blank" href="https://delilahsinger.ca/">Dan Singer</a> |
+          <a target="_blank" href="https://sophiawestrop.com">Sophia Westrop</a> |
+          <a target="_blank" href="http://suyog.ca/">Suyog Ghimire</a> |
+          <a target="_blank" href="https://brayanhortua.ca/">Bryan Hortua</a> |
+          <a target="_blank" href="https://mariajoselr.com/">Maria Jose</a> |
+          <a target="_blank" href="https://samayakafle.ca">Samaya Kafle</a>
+
+        </p>
+
+      </div>
+
+    </section>
+
+    <section id="runnerup" class="grid-con info">
+      <div class="bottomin grid-item col-span-4 m-col-start-2 m-col-end-12 box">
+        <h2 class="text-center">HONORABLE MENTIONS</h2>
+      </div>
+
+      <div class="leftin final-team-div grid-item col-span-4 m-col-start-1 m-col-end-5 box">
+        <img class="final-img" src="images/4 .png">
+        <h3>TEAM #4</h3>
+        <p>
+          <a target="_blank" href="https://camilaromero.ca">Camila Romero</a> |
+          <a target="_blank" href="https://www.emmanuelkabongo.ca">Emanuel Kabongo</a> |
+          <a target="_blank" href="https://asultan.ca/">Sultan Abdullh</a> |
+          <a target="_blank" href="https://vasishth.ca">Vasishth Chaudhari</a> |
+          <a target="_blank" href="http://arorajunish.ca">Junish Arora</a>
+
+        </p>
+
+
+      </div>
+
+      <div class="bottomin final-team-div col-span-4 m-col-start-5 m-col-end-9 box">
+        <img class="final-img" src="images/5.png">
+        <br>
+        <h3>TEAM #5</h3>
+        <p>
+          <a target="_blank" href="https://devpandya.com/">Dev Pandya</a> |
+          <a target="_blank" href="https://pateljeet.com">Jeet Patel</a> |
+          <a target="_blank" href="https://sahilgosaliya.com/">Sahil Gosaliya</a> |
+          <a target="_blank" href="http://aidenwotton.com">Aiden Wotton</a> |
+          <a target="_blank" href="https://jvisuals.ca">Jason Difuntorum</a>
+        </p>
+      </div>
+
+      <div class="rightin final-team-div col-span-4 m-col-start-9 m-col-end-13 box">
+        <img class="final-img" src="images/6 .png">
+        <br>
+        <h3>TEAM #6</h3>
+        <p>
+          <a target="_blank" href="https://kwencydesigns.ca/">Kwency Maye Dahilan</a> |
+          <a target="_blank" href="https://rodfreitas.com/">Rodrigo Rocha De Freitas</a> |
+          <a target="_blank" href="http://jonyun.ca/">Jong Woog Yun</a> |
+          <a target="_blank" href="https://tiagowitt.com/">Tiago Da Silva Witt</a>
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- Industry Night Gallery  -->
+    <section id="gallery">
+      <h2 class="hidden">Gallery</h2>
+      <div class="grid-con">
+        <img class="images leftin desktop m-col-span-5 l-col-span-5 xl-col-span-5 box" src="images/1.jpg" alt="pic_1" />
+        <h2 class="img_text bottomin desktop m-col-span-12 l-col-span-2 xl-col-span-2 box">
+          PROJECT EXHIBIT
+        </h2>
+        <img class="images rightin desktop m-col-span-5 l-col-span-5 xl-col-span-5 box" src="images/2.jpg"
+          alt="pic_2" />
+      </div>
+
+      <div class="grid-con">
+        <img class="images desktop leftin m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/3.jpg" alt="pic_3" />
+        <img class="images desktop bottomin m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/4.jpg"
+          alt="pic_4" />
+        <img class="images desktop rightin m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/5.jpg"
+          alt="pic_5" />
+      </div>
+
+      <div class="grid-con">
+        <img class="images leftin desktop m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/6.jpg" alt="pic_6" />
+        <img class="images rightin desktop m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/7.jpg"
+          alt="pic_7" />
+      </div>
+
+      <div class="grid-con">
+        <h2 class="img_text tablet m-col-span-12 l-col-span-12 xl-col-span-12 box">
+          PROJECT EXHIBIT
+        </h2>
+        <img class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/1.jpg" alt="pic_1" />
+
+        <img class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/2.jpg" alt="pic_2" />
+      </div>
+
+      <div class="grid-con">
+        <img class="images tablet m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/3.jpg" alt="pic_3" />
+        <img class="images tablet m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/4.jpg" alt="pic_4" />
+        <img class="images tablet m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/5.jpg" alt="pic_5" />
+      </div>
+
+      <div class="grid-con">
+        <img class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/6.jpg" alt="pic_6" />
+        <img class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/7.jpg" alt="pic_7" />
+      </div>
+
+      <div class="carousel mobile">
+        <h2 class="img_text mobile col-span-4 box">
+          PROJECT EXHIBIT
+        </h2>
+        <div class="grid-con mobile col-span-4 box">
+          <img src="images/1.jpg" alt="pic_1" />
+          <img src="images/2.jpg" alt="pic_2" />
+          <img src="images/3.jpg" alt="pic_3" />
+          <img src="images/4.jpg" alt="pic_4" />
+          <img src="images/5.jpg" alt="pic_5" />
+          <img src="images/6.jpg" alt="pic_6" />
+          <img src="images/7.jpg" alt="pic_7" />
         </div>
+      </div>
+    </section>
 
-        <div class="grid-con">
-          <img
-            class="images desktop leftin m-col-span-4 l-col-span-4 xl-col-span-4 box"
-            src="images/1.jpg"
-            alt="pic_3"
-          />
-          <img
-            class="images desktop bottomin m-col-span-4 l-col-span-4 xl-col-span-4 box"
-            src="images/in_pic(4).jpg"
-            alt="pic_4"
-          />
-          <img
-            class="images desktop rightin m-col-span-4 l-col-span-4 xl-col-span-4 box"
-            src="images/in_pic(5).jpg"
-            alt="pic_5"
-          />
-        </div>
+    <section id="testimonials" class="bottomin grid-con">
+      <div class="grid-item col-span-4 m-col-span-12 box">
+        <h2>TESTIMONIALS</h2>
+      </div>
 
-        <div class="grid-con">
-          <img
-            class="images leftin desktop m-col-span-6 l-col-span-6 xl-col-span-6 box"
-            src="images/in_pic(6).jpg"
-            alt="pic_6"
-          />
-          <img
-            class="images rightin desktop m-col-span-6 l-col-span-6 xl-col-span-6 box"
-            src="images/in_pic(7).jpg"
-            alt="pic_7"
-          />
-        </div>
+      <div class="col-span-4 m-col-span-4 l-col-span-4 box test">
 
-        <div class="grid-con">
-          <h2
-            class="img_text tablet m-col-span-12 l-col-span-12 xl-col-span-12 box"
-          >
-            GLIMPSE OF 2023 INDUSTRY NIGHT
-          </h2>
-          <img
-            class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box"
-            src="images/in_pic(1).jpg"
-            alt="pic_1"
-          />
+        <p>
+          "These amazing students bring fresh perspectives and innovative ideas to the table. Their dedication to the
+          project is truly inspiring,"
+        </p>
+        <br>
+        <h3> - Aimee Hagerty, co-founder and board member for Foundation Sixty6 </h3>
+      </div>
 
-          <img
-            class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box"
-            src="images/in_pic(2).jpg"
-            alt="pic_2"
-          />
-        </div>
+      <div class="col-span-4 m-col-span-4 l-col-span-4 box test">
 
-        <div class="grid-con">
-          <img
-            class="images tablet m-col-span-4 l-col-span-4 xl-col-span-4 box"
-            src="images/in_pic(3).jpg"
-            alt="pic_3"
-          />
-          <img
-            class="images tablet m-col-span-4 l-col-span-4 xl-col-span-4 box"
-            src="images/in_pic(4).jpg"
-            alt="pic_4"
-          />
-          <img
-            class="images tablet m-col-span-4 l-col-span-4 xl-col-span-4 box"
-            src="images/in_pic(5).jpg"
-            alt="pic_5"
-          />
-        </div>
+        <p>
+          "It's been incredible to work alongside these talented students. Their passion and dedication reaffirm our
+          commitment to supporting youth mental health."
 
-        <div class="grid-con">
-          <img
-            class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box"
-            src="images/in_pic(6).jpg"
-            alt="pic_6"
-          />
-          <img
-            class="images tablet m-col-span-6 l-col-span-6 xl-col-span-6 box"
-            src="images/in_pic(7).jpg"
-            alt="pic_7"
-          />
-        </div>
+        </p>
+        <br>
+        <h3> - Bill Hagerty, co-founder and board member for Foundation Sixty6 </h3>
+      </div>
 
-        <div class="carousel mobile">
-          <h2 class="img_text mobile col-span-4 box">
-            GLIMPSE OF 2023 INDUSTRY NIGHT
-          </h2>
-          <div class="grid-con mobile col-span-4 box">
-            <img src="images/1.jpg" alt="pic_1" />
-            <img src="images/2.jpg" alt="pic_2" />
-            <img src="images/in_pic(3).jpg" alt="pic_3" />
-            <img src="images/in_pic(4).jpg" alt="pic_4" />
-            <img src="images/in_pic(5).jpg" alt="pic_5" />
-            <img src="images/in_pic(6).jpg" alt="pic_6" />
-            <img src="images/in_pic(7).jpg" alt="pic_7" />
-          </div>
-        </div>
-      </section>
+      <div class="col-span-4 m-col-span-4 l-col-span-4 box test">
 
-      <section id="testimonials" class="bottomin grid-con">
-        <div class="grid-item col-span-4 m-col-span-12 box">
-          <h2>TESTIMONIALS</h2>
-        </div>
+        <p>
+          "Observing the students collaborating with Foundation Sixty6 has been an inspiring journey. The creativity and
+          skill displayed by the students have been truly outstanding."
+        </p>
+        <br>
+        <h3> - Marco De Luca, IDP Program coordinator and professor for Fanshawe </h3>
+      </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
-          <h3>Marco De Luca</h3>
-          <p>
-            "If you are a business owner, and you don't have industry nights in
-            your toolkit just yet, I highly recommend that you check it out."
-          </p>
-        </div>
+    </section>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 box test">
-          <h3>Robert Haaf</h3>
-          <p>
-            "I love industry nights! This is an amazing service and it has saved
-            me and my small business so much time. I plan to use it for a long
-            time to come."
-          </p>
-        </div>
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
-          <h3>John Bennett</h3>
-          <p>
-            "I have tried a few software of this kind and industry nights is the
-            best by far!"
-          </p>
-        </div>
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
-          <h3>Justin Brunner</h3>
-          <p>
-            "If you are a business owner, and you don't have industry nights in
-            your toolkit just yet, I highly recommend that you check it out."
-          </p>
-        </div>
+    <section id="program" class="grid-con info">
+      <div class="leftin container grid-item col-span-4 m-col-start-2 m-col-end-6 box">
+        <img src="./images/idp-main.jpg" alt="main img" />
+      </div>
 
-        <div class="col-span-4 m-col-span-4 l-col-span-4 box test">
-          <h3>Joe Kormendi</h3>
-          <p>
-            "I love industry nights! This is an amazing service and it has saved
-            me and my small business so much time. I plan to use it for a long
-            time to come."
-          </p>
-        </div>
+      <div class="rightin container grid-item col-span-4 m-col-start-7 m-col-end-12 box">
+        <h2>INTERACTIVE MEDIA DESIGN</h2>
+        <p>
+          Learn about our program and how it prepares students for the
+          industry.
+        </p>
+        <br />
 
-        <div class="col-span-4 m-col-span-3 l-col-span-4 box test">
-          <h3>Jarrod Osterback</h3>
-          <p>
-            "I have tried a few software of this kind and industry nights is the
-            best by far!"
-          </p>
-        </div>
-        <br /><br />
-      </section>
+        <p>
+          Unlock Your Digital Creativity Future with Us! Explore a world of
+          digital design, development, and innovation in our two-year
+          Interactive Media Design program at Fanshawe College.
+        </p>
 
-      <!-- Student Portfolios Section -->
-      <section id="students" class="bottomin grid-con">
+        <br />
+        <p>
+          Why Choose Us? Gain a comprehensive skill-set in web design, coding,
+          animation, and more. Access cutting-edge facilities and
+          industry-standard software. Open doors to exciting career
+          opportunities in various fields. Stay ahead with emerging
+          technologies and industry-relevant tools!
+        </p>
+        <br />
+        <p class="button-wraper">
+          <a class="button" href="https://www.fanshawec.ca/programs/idp3-interactive-media-design/next"
+            target="_blank">Learn More
+            <span>>></span></a>
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Student Portfolios Section -->
+    <section id="students" class="bottomin grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
+        <h2>MEET THE DEVELOPERS</h2>
+      </div>
+
+      <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+        <h3>JEET PATEL</h3>
+        <p>
+          <a href="https://pateljeet.com/" target="_blank">pateljeet.com</a>
+        </p>
+      </div>
+      <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+        <h3>SAHIL GOSALIYA</h3>
+        <p>
+          <a href="https://sahilgosaliya.com/" target="_blank">sahilgosaliya.com</a>
+        </p>
+      </div>
+      <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+        <h3>AIDEN WOTTON</h3>
+        <p>
+          <a href="http://aidenwotton.com" target="_blank">aidenwotton.com</a>
+        </p>
+      </div>
+
+      <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+        <h3>DEV PANDYA</h3>
+        <p>
+          <a href="https://devpandya.com/" target="_blank">devpandya.com</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio-list">
+      <div class="bottomin grid-con">
         <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-          <h2>MEET THE DEVELOPERS</h2>
+          <h2>STUDENTS' PORTFOLIO SHOWCASE</h2>
         </div>
+      </div>
 
-        <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
-        >
-          <h3>JEET PATEL</h3>
-          <p>
-            <a href="https://pateljeet.com/" target="_blank">pateljeet.com</a>
-          </p>
-        </div>
-        <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
-        >
-          <h3>SAHIL GOSALIYA</h3>
-          <p>
-            <a href="https://sahilgosaliya.com/" target="_blank"
-              >sahilgosaliya.com</a
-            >
-          </p>
-        </div>
-        <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
-        >
-          <h3>AIDEN WOTTON</h3>
-          <p>
-            <a href="http://aidenwotton.com" target="_blank">aidenwotton.com</a>
-          </p>
-        </div>
+      <div id="portfolio-container" class="grid-con bottomin">
+        <!-- Portfolios will be added here dynamically with JavaScript -->
+      </div>
+    </section>
+  </main>
+  <!-- Footer Section -->
+  <footer id="footer" class="grid-con">
+    <section class="grid-item col-span-4 m-col-start-5 m-col-end-9 box">
+      <div class="social">
+        <a href="index.html">
+          <img src="images/f_logo.svg" alt="fanshawe logo" /></a>
+      </div>
+      <div class="social">
+        <h3>copyright @ fanshawe 2024</h3>
+      </div>
+      <div class="social">
+        <a href="https://www.instagram.com/fanshawecollege/?hl=en" target="_blank">
+          <img src="images/insta.png" alt="instagram" /></a>
+        <a href="https://www.youtube.com/myfanshawe" target="_blank">
+          <img src="images/yt.png" alt="youtube" />
+        </a>
+        <a href="https://www.facebook.com/FanshaweCollege/" target="_blank">
+          <img src="images/fb.png" alt="facebook" />
+        </a>
+      </div>
+    </section>
+  </footer>
+</body>
 
-        <div
-          class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box"
-        >
-          <h3>DEV PANDYA</h3>
-          <p>
-            <a href="https://devpandya.com/" target="_blank">devpandya.com</a>
-          </p>
-        </div>
-      </section>
-
-      <section id="portfolio-list">
-        <div class="bottomin grid-con">
-          <div
-            class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box"
-          >
-            <h2>STUDENTS' PORTFOLIO SHOWCASE</h2>
-          </div>
-        </div>
-
-        <div id="portfolio-container" class="grid-con bottomin">
-          <!-- Portfolios will be added here dynamically with JavaScript -->
-        </div>
-      </section>
-    </main>
-    <!-- Footer Section -->
-    <footer id="footer" class="grid-con">
-      <section class="grid-item col-span-4 m-col-start-5 m-col-end-9 box">
-        <div class="social">
-          <a href="index.html">
-            <img src="images/f_logo.svg" alt="fanshawe logo"
-          /></a>
-        </div>
-        <div class="social">
-          <h3>copyright @ fanshawe 2024</h3>
-        </div>
-        <div class="social">
-          <a
-            href="https://www.instagram.com/fanshawecollege/?hl=en"
-            target="_blank"
-          >
-            <img src="images/insta.png" alt="instagram"
-          /></a>
-          <a href="https://www.youtube.com/myfanshawe" target="_blank">
-            <img src="images/yt.png" alt="youtube" />
-          </a>
-          <a href="https://www.facebook.com/FanshaweCollege/" target="_blank">
-            <img src="images/fb.png" alt="facebook" />
-          </a>
-        </div>
-      </section>
-    </footer>
-  </body>
 </html>
