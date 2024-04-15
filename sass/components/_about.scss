@@ -24,6 +24,14 @@
   font-weight: bold;
 }
 
+
+#about {
+  h3 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+}
+
 #about h4 {
   padding-top: 15px;
 }
@@ -48,5 +56,54 @@
 @media screen and (min-width: 730px) {
   .container p {
     font-size: 16px;
+  }
+
+  #about h1 {
+
+    font-weight: bold;
+    overflow-wrap: break-word;
+  }
+
+  #about h3 {
+
+    overflow-wrap: break-word;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  #about h1 {
+    font-size: 50px;
+    font-weight: bold;
+    overflow-wrap: break-word;
+  }
+
+  #about h3 {
+    font-size: 25px;
+    overflow-wrap: break-word;
+  }
+}
+
+
+
+@media screen and (max-width: 729px) {
+  .container.hero video {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 100%;
+    // box-shadow: #681212 20px 20px 20px;
+  }
+
+  #about h1 {
+    font-size: 30px;
+    font-weight: bold;
+    overflow-wrap: break-word;
+  }
+
+  #about h3 {
+    font-size: 20px;
+    overflow-wrap: break-word;
   }
 }

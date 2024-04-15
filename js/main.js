@@ -5,15 +5,16 @@ import { updateProgressBar } from "./modules/progessbar.js";
 import { navgsap } from "./modules/hambur.js";
 import { leftandright } from "./modules/gsap.js";
 import { pagegsap } from "./modules/pagegsap.js";
-import { Splittext } from "./modules/gsap.js";
+import { animateHeaderTexts } from "./modules/gsap.js";
 pagegsap();
 portfolios();
-hambur();
+// hambur();
 navgsap();
 leftandright();
 
 window.onscroll = function () {
   updateProgressBar();
 };
-Splittext();
+
+animateHeaderTexts();
 particle();
