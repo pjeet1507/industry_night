@@ -8,6 +8,8 @@ nav {
 nav img {
   width: 50px;
   justify-self: end;
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 nav .container {
@@ -48,6 +50,10 @@ nav a {
   color: white;
 }
 
+.main-logo {
+  padding-left: 30px;
+}
+
 /* Navigation Links Hover_ Animation */
 
 /* Stylizing the navigation links */
@@ -60,12 +66,7 @@ nav ul.menu li a {
 
 nav ul.menu li a:hover {
   color: #646469;
-
   text-decoration: underline;
-}
-
-.nav {
-  padding-top: 20px;
 }
 
 body {
@@ -144,27 +145,6 @@ canvas {
   mix-blend-mode: multiply;
   filter: invert(100%);
   // z-index: -1;
-}
-
-/* ---- stats.js ---- */
-
-.js-count-particles {
-  font-size: 1.1em;
-}
-
-.count-particles {
-  // -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles {
-  border-radius: 0 0 3px 3px;
 }
 
 h2 {
@@ -260,3 +240,11 @@ li {
 .bold {
   font-weight: bold;
 }
+
+.bottomin a.bold {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #e02726;
+}
+
