@@ -2,6 +2,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.registerPlugin(SplitText);
 
+gsap.registerPlugin(TextPlugin);
+
 export function leftandright() {
   function slideInFromLeft(element, staggerValue) {
     gsap.from(element, {
@@ -99,16 +101,32 @@ export function leftandright() {
     }
   });
 }
-export function Splittext() {
-  gsap.registerPlugin(SplitText);
 
-  const split = new SplitText("#about h1,#about h3,#about h4", { type: "chars" });
-
-  const typingText = gsap.timeline().from(split.chars, {
-    duration: 0.1,
-    autoAlpha: 0,
-    stagger: 0.03
+export function animateHeaderTexts() {
+  const timeline = gsap.timeline({
+    defaults: (".element", { duration: 0.5, ease: "power2.inOut" }),
   });
 
+  // Correctly select elements using nth-of-type to ignore non-h3 and non-h1 elements
+  const header1 = document.querySelector("#about h3:nth-of-type(1)");
+  const header2 = document.querySelector("#about h1");
+  const header3 = document.querySelector("#about h3:nth-of-type(2)");
+  const header4 = document.querySelector("#about h3:nth-of-type(3)");
 
+  // Apply animations with text content specific to each element, without staggered delays
+  timeline
+    .to(header1, { text: "JOIN US FOR" })
+    .to(
+      header2,
+      { text: "<span> FANSHAWE COLLEGE</span> INDUSTRY NIGHT 2024" },
+      "<"
+    )
+    .to(
+      header3,
+      {
+        text: "Interactive Media Design & User Experience Design Programs",
+      },
+      "<"
+    )
+    .to(header4, { text: "School of Media & Digital Arts" }, "<");
 }
