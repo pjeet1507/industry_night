@@ -5,50 +5,64 @@
 //     // height: 100vh;
 // }
 
-
 #about {
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
 #about {
-
-    background-size: cover;
-    text-align: center;
-    padding: 40px 0;
-    // height: 80vh;
-
-
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0;
+  // height: 80vh;
 }
 
 #about h1 {
-    font-size: 70px;
-    font-weight: bold;
+  font-size: 60px;
+  font-weight: bold;
+}
 
+#about h4 {
+  padding-top: 15px;
 }
 
 #about p {
-    font-size: 16px;
-    line-height: 1.5;
-
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .container p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .container.hero video {
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-    // box-shadow: #681212 20px 20px 20px;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  // box-shadow: #681212 20px 20px 20px;
 }
 
 @media screen and (min-width: 730px) {
-    .container p {
-        font-size: 16px;
-    }
+  .container p {
+    font-size: 16px;
+  }
+}
+
+// #portfolio-list {
+//   background-image: url("../images/white_background.png");
+//   img {
+//     opacity: 0.3%;
+//   }
+// }
+
+#profs {
+  h2 {
+    text-align: center;
+  }
+}
+
+.section {
+  margin-top: 50px; /* Adjust the value to your preference */
 }

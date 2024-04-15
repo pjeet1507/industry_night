@@ -1,7 +1,32 @@
 #event {
-    // background: url("../images/white_background.png") no-repeat center center fixed;
-    background-size: cover;
-    text-align: center;
-    padding: 40px 0;
-    margin: 30px;
+  // background: url("../images/white_background.png") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0;
+  margin: 30px;
+}
+
+.button-wraper {
+  transition: ease 0.3s;
+  margin-top: 20px;
+  .button {
+    background-color: #e02726;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: ease 0.3s;
+  }
+  span {
+    padding-left: 10px;
+    transition: ease 0.3s;
+  }
+
+  &:hover {
+    .button {
+      background-color: #ad1e1d;
+    }
+    span {
+      padding-left: 20px;
+    }
+  }
 }

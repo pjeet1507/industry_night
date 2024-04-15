@@ -102,13 +102,13 @@ export function leftandright() {
 export function Splittext() {
   gsap.registerPlugin(SplitText);
 
-  const split = new SplitText("#about h1,#about h3", { type: "chars" });
+  const split = new SplitText("#about h1,#about h3,#about h4", { type: "chars" });
 
   const typingText = gsap.timeline().from(split.chars, {
-    duration: 0.01,
+    duration: 0.1,
     autoAlpha: 0,
-    stagger: {
-      each: 0.1,
-    },
+    stagger: 0.03
   });
+
+
 }
