@@ -13,7 +13,7 @@ export function portfolios() {
     {
       name: "Shih-Hsuan Huang",
       portfolioLink: "https://alexhuanginnovation.com/",
-    },
+    },                    
     { name: "Jemima Ama Neizer", portfolioLink: "http://jemamaneizer.ca/" },
     {
       name: "Estefania Aguilar Velez",
